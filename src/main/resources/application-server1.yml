@@ -2,3 +2,8 @@
 server.port: 20001
 eureka.instance.hostname: server1
 eureka.client.service-url.defaultZone: http://server2:20002/eureka
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    register-with-eureka: false
